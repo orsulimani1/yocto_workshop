@@ -1,0 +1,11 @@
+# Ignore everything in the build directory
+build/*
+
+# Do not ignore the conf directory
+!build/conf/
+
+# Ignore everything in conf except specific files
+build/conf/*
+!build/conf/local.conf
+!build/conf/bblayers.conf
+!build/conf/*.conf
