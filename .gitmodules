@@ -6,10 +6,6 @@
 	path = yocto/meta-ti
 	url = git://git.yoctoproject.org/meta-ti
 	branch = kirkstone
-[submodule "meta-shift"]
-	path = yocto/meta-shift
-	url = https://github.com/shift-left-test/meta-shift.git
-	branch = kirkstone
 [submodule "yocto/meta-shift"]
 	path = yocto/meta-shift
 	url = https://github.com/shift-left-test/meta-shift.git

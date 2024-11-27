@@ -9,3 +9,7 @@ build/conf/*
 !build/conf/local.conf
 !build/conf/bblayers.conf
 !build/conf/*.conf
+
+!yocto/poky/meta-ti
+!yocto/poky/meta-
+

@@ -14,3 +14,5 @@ if [ -d "$DIR" ]; then
 else
     echo "The directory '$DIR' run 'git submodule update --init --recursive"
 fi
+
+ln -s ../../meta-ti yocto/poky/meta-ti
