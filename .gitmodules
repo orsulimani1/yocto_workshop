@@ -2,7 +2,3 @@
 	path = yocto/poky
 	url = git://git.yoctoproject.org/poky
 	branch = kirkstone
-[submodule "yocto/meta-ti"]
-	path = yocto/meta-ti
-	url = git://git.yoctoproject.org/meta-ti
-	branch = kirkstone
