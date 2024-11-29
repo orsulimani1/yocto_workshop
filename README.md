@@ -25,8 +25,8 @@ Yocto workshop
 # to start
 in the repo level run these commands
 
-git submodule update --init --recursive
-source ./init_yocto.sh
-bitbake core-image-minimal
+1. git submodule update --init --recursive
+2. source ./init_yocto.sh
+3. bitbake core-image-minimal
 
 it can take a while 
