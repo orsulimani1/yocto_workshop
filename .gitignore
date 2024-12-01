@@ -13,3 +13,4 @@ build/conf/*
 !yocto/poky/meta-ti
 !yocto/poky/meta-
 
+build/conf/bblayers.conf
