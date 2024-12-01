@@ -23,6 +23,8 @@ Yocto workshop
 
 
 # to start
+make sure to run the Prerequisites dependancy command
+
 in the repo level run these commands
 
 1. git submodule update --init --recursive
