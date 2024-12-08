@@ -1,0 +1,30 @@
+diff --git a/hello_yocto_from_git/CMakeLists.txt b/hello_yocto_from_git/CMakeLists.txt
+index 6c47e54..222734f 100644
+--- a/hello_yocto_from_git/CMakeLists.txt
++++ b/hello_yocto_from_git/CMakeLists.txt
+@@ -23,4 +23,4 @@ else()
+ endif()
+ 
+ 
+-add_executable(hello_yocto_from_git hello_yocto.c) 
+\ No newline at end of file
++add_executable(hello_patch hello_yocto.c) 
+\ No newline at end of file
+diff --git a/hello_yocto_from_git/hello_yocto.c b/hello_yocto_from_git/hello_yocto.c
+index 19f2527..fdbbf0e 100644
+--- a/hello_yocto_from_git/hello_yocto.c
++++ b/hello_yocto_from_git/hello_yocto.c
+@@ -5,9 +5,11 @@ int main(int argc, char const *argv[])
+     
+     printf("*************************************\n");
+     printf("*************************************\n");
+-    
++#ifndef ENABLE_FEATURE
+     printf("\tHello Yocto from git\t\n");
+-
++#else
++    printf("\tHello Yocto from git changed with patch symbol from yocto\t\n");
++#endif
+     printf("*************************************\n");
+     printf("*************************************\n");
+ 
