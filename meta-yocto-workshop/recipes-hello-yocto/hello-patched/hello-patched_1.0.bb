@@ -12,7 +12,7 @@ S = "${WORKDIR}/git"
 
 inherit cmake
 
-EXTRA_OECMAKE = "-DENABLE_FEATURE=ON"
+# EXTRA_OECMAKE = "-DENABLE_FEATURE=ON"
 
 do_install() {
     # Create the target directory in the image

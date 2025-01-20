@@ -13,5 +13,5 @@ inherit module
 MODULE_NAME = "hello"
 
 # If you want the module to load automatically on boot, specify here:
-KERNEL_MODULE_AUTOLOAD += "hello"
+KERNEL_MODULE_AUTOLOAD += " hello"
 
